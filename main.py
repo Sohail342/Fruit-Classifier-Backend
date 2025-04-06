@@ -10,7 +10,7 @@ from app.api.routes import router as api_router
 # Create FastAPI app
 app = FastAPI(
     title="Image Classification API",
-    description="API for image classification using TensorFlow and Cloud AI",
+    description="API for image classification using TensorFlow",
     version="1.0.0"
 )
 
