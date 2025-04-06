@@ -12,12 +12,7 @@ A full-stack application for image classification using FastAPI, React, and Tens
 │   ├── requirements.txt  # Python dependencies
 │   └── main.py           # Entry point
 │   └── models           # Custom Train model
-├── frontend/             # React frontend
-│   ├── public/           # Static files
-│   ├── src/              # Source code
-│   ├── package.json      # Node dependencies
-│   └── README.md         # Frontend documentation
-└── README.md             # Project documentation
+└   ── README.md             # Project documentation
 ```
 
 ## Features
