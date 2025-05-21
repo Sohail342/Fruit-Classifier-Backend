@@ -36,7 +36,7 @@ os.makedirs("uploads", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 # Include API routes
-app.include_router(api_router, prefix="/api")
+app.include_router(api_router)
 
 # Root endpoint
 @app.get("/")
